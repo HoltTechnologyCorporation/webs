@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+import math
 
 
 def parse_number(num):
@@ -22,10 +23,14 @@ def main():
     except (IndexError, ValueError):
         print('Usage: rps <rps> <total-count>')
     else:
-        parallel_count = int(count / rps)
+        parallel_count = math.ceil(count / float(rps))
         t_hr, t_sec = divmod(parallel_count, 3600)
-        t_min = int(t_sec / 60)
+        t_min, t_sec = divmod(t_sec, 60)
+        items = []
         if t_hr:
-            print('%d hr, %d min' % (t_hr, t_min))
-        else:
-            print('%d min' % t_min)
+            items.append('%d hr' % t_hr)
+        if t_min:
+            items.append('%d min' % t_min)
+        if t_sec:
+            items.append('%d sec' % t_sec)
+        print(', '.join(items))
