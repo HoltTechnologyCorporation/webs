@@ -1,8 +1,8 @@
-=======
-wstools
-=======
+====
+webs
+====
 
-The package wstools provides a number of console utilities for
+The package webs provides a number of console utilities for
 estimating things related to web scraping:
 
 * rps <things per second> <number of things> - calculates how much time
@@ -12,4 +12,4 @@ estimating things related to web scraping:
 Feedback
 --------
 
-Either Drop mail to lorien@lorien.name or create ticket at https://github.com/lorien/wstools/issues
+Either Drop mail to lorien@lorien.name or create ticket at https://github.com/lorien/webs/issues

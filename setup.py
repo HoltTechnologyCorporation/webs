@@ -4,11 +4,11 @@ import os
 ROOT = os.path.dirname(os.path.realpath(__file__))
 
 setup(
-    name = 'wstools',
+    name = 'webs',
     version = '0.0.2',
     description = 'Web Scraping Tools',
     long_description = open(os.path.join(ROOT, 'README.rst')).read(),
-    url = 'http://github.com/lorien/wstools',
+    url = 'http://github.com/lorien/webs',
     author = 'Gregory Petukhov',
     author_email = 'lorien@lorien.name',
 
