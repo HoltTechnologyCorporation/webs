@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.realpath(__file__))
 
 setup(
     name = 'webs',
-    version = '0.0.4',
+    version = '0.0.5',
     description = 'Web Scraping Tools',
     long_description = open(os.path.join(ROOT, 'README.rst')).read(),
     url = 'http://github.com/lorien/webs',
