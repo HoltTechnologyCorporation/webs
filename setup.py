@@ -14,7 +14,8 @@ setup(
 
     packages = find_packages(),
     include_package_data = True,
-    scripts = ('bin/rps',),
+    scripts = ['bin/rps', 'bin/myip'],
+    install_requires = ['six'],
 
     license = "MIT",
     keywords = "script web scraping console",

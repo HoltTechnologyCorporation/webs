@@ -2,11 +2,13 @@
 webs
 ====
 
-The package webs provides a number of console utilities for
-estimating things related to web scraping:
+The package webs provides a couple of console utilities related
+to web scraping:
 
 * rps <things per second> <number of things> - calculates how much time
   do you need to process given number of things with given speed.
+
+* myip - displays your external IPv4 address
 
 
 Feedback
